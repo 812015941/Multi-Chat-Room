@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="com.qq.common">
+<!-- class中的table 和class名字一样 -->
+<class name="User" table="registration">
+	<id name="userID"  type="java.lang.String">
+		<column name="id"/>
+	</id><!-- id来映射主键primary key -->
+	<property name="passwd"  type="java.lang.String">
+		<column name="password"/>
+	</property>
+	
+	
+	
+	
+	
+</class>
+
+
+</hibernate-mapping>
